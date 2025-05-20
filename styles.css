@@ -1,28 +1,26 @@
-/*  your css code here. If applicable */
-body{
-	background-color: rgb(204, 204, 204)
+body {
+  background-color: rgb(204, 204, 204);
 }
-h1{
-	text-align: center;
-}
-#list{
-	
+h1, h2 {
+  text-align: center;
 }
 ul li {
-list-style: none;
-
+  list-style: none;
 }
-div{
-	background-color: rgb(255, 255, 255); padding : 20px;
-	border-radius:10px;
+div {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
 }
-h2{
-	text-align:center;
+#uniq {
+  border: 1px solid black;
 }
-#uniq{
-	border:1px solid black;
+a {
+  text-decoration-line: none;
+  color: black;
 }
-a{
-	text-decoration-line: none;
-	color:black;
+.player_one, .player_two {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
 }
